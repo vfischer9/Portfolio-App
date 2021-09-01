@@ -1,3 +1,8 @@
+# Art Credit
+favicon.ico: Freepik on flaticon.com (https://www.flaticon.com/free-icon/corgi_4364519?term=corgi&page=1&position=21&page=1&position=21&related_id=4364519&origin=search)
+letterV.png: Melvin ilham Oktaviansyah on freeicons.io (https://freeicons.io/alphabet-&-number-5/v-alphabet-abecedary-sign-symbol-letter-icon-103597#)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
