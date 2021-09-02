@@ -40,8 +40,8 @@ function Home() {
     return (
         <div>
             <h1 className='myName'>VICTORIA FISCHER</h1>
-            <Container className='navigate'>
-                <Navbar expand="lg" variant="light" bg="light">
+            <Container>
+                <Navbar className='navigate' expand="lg" variant="light">
                     <Link to='/'><img src={letterV} alt='V' className='letterV'></img></Link>
                     <Container className='justify-content-end'>
                     <Navbar.Brand className='navItem' onClick={scrollToProjects}>Projects</Navbar.Brand>
@@ -81,7 +81,7 @@ function Home() {
                                 Undergraduate Research Conference.
                                 </Card.Text>
                             </Card.Body>
-                            <Button href='https://covidvirtualtest.herokuapp.com/' target='_blank' variant="light">Visit the App</Button>
+                            <Button href='https://covidvirtualtest.herokuapp.com/' target='_blank' variant="dark">Visit the App</Button>
                         </Card>
 
                         <Card className='card' style={{ width: '20rem' }}>
@@ -107,7 +107,7 @@ function Home() {
                                 the user the options of taking a break, adding more time, or subtracting time. 
                                 </Card.Text>
                             </Card.Body>
-                            <Button href='https://pomodoroclock-vfisch.netlify.app/' target='_blank' variant="light">Visit the App</Button>
+                            <Button href='https://pomodoroclock-vfisch.netlify.app/' target='_blank' variant="dark">Visit the App</Button>
                         </Card>
                         </Container>
             </Container>
