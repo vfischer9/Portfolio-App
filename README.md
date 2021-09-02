@@ -1,7 +1,11 @@
 # Art Credit
 favicon.ico: Freepik on flaticon.com (https://www.flaticon.com/free-icon/corgi_4364519?term=corgi&page=1&position=21&page=1&position=21&related_id=4364519&origin=search)
 letterV.png: Melvin ilham Oktaviansyah on freeicons.io (https://freeicons.io/alphabet-&-number-5/v-alphabet-abecedary-sign-symbol-letter-icon-103597#)
-
+linkedin.png: Freepik on flaticon.com (https://www.flaticon.com/free-icon/linkedin_145807?term=linkedin&page=1&position=7&page=1&position=7&related_id=145807&origin=search)
+github.png: Freepik on flaticon.com (https://www.flaticon.com/free-icon/github_1051326?term=github&page=1&position=18&page=1&position=18&related_id=1051326&origin=search)
+email.png: iconixar on flaticon.com (https://www.flaticon.com/free-icon/email_1782712?term=email&page=1&position=37&page=1&position=37&related_id=1782712&origin=search)
+phone-call.png: prettycons on flaticon.come (https://www.flaticon.com/free-icon/phone-call_901192?term=phone&page=1&position=51&page=1&position=51&related_id=901192&origin=search)
+copyright.png: Freepik on flaticon.com (https://www.flaticon.com/free-icon/copyright_2658057?term=copyright&page=1&position=5&page=1&position=5&related_id=2658057&origin=search)
 
 # Getting Started with Create React App
 
