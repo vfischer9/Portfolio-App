@@ -33,28 +33,34 @@ function Home() {
         elemToScroll.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
     }
 
+    function scrollToTop(){
+        var elemToScroll = document.getElementById('top');
+        elemToScroll.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
+    }
+
+
     function openEmail(){
         window.open('mailto:vfisch0430@gmail.com?subject=Subject&body=Body%20goes%20here')
     }
 
     return (
-        <div>
-            <h1 className='myName'>VICTORIA FISCHER</h1>
+        <div className='application'>
+            <img onClick={scrollToTop} src={letterV} alt='V' className='clickable letterV sticky'></img>
+            <h1 className='myName' id='top'>VICTORIA FISCHER</h1>
             <Container>
                 <Navbar className='navigate' expand="lg" variant="light">
-                    <Link to='/'><img src={letterV} alt='V' className='letterV'></img></Link>
-                    <Container className='justify-content-end'>
+                    <Container>
                     <Navbar.Brand className='navItem' onClick={scrollToProjects}>Projects</Navbar.Brand>
-                    <Navbar.Brand>|</Navbar.Brand>
+                    <Navbar.Brand className='line'>|</Navbar.Brand>
                     <Navbar.Brand className='navItem' onClick={scrollToContact}>Contact</Navbar.Brand>
-                    <Navbar.Brand>|</Navbar.Brand>
+                    <Navbar.Brand className='line'>|</Navbar.Brand>
                     <Navbar.Brand className='navItem' onClick={scrollToResume}>Resume</Navbar.Brand>
                     </Container>
                 </Navbar>
             </Container>
 
             <Container className='about'>
-                <h3>Introduction</h3>
+                <h3 className='head'>Introduction</h3>
                 <p>Hi! My name is Victoria Fischer, and I'm an aspiring software engineer.
                     <br></br>
                     I have passions for both front-end and backend work. I love to express my creativity in
@@ -68,9 +74,9 @@ function Home() {
             </Container>
 
             <Container fluid id='projects'>
-                <h3>Featured Work</h3>
+                <h3 className='head'>Featured Work</h3>
                         <Container className='cards'>
-                        <Card className='card' style={{ width: '20rem' }}>
+                        <Card className='card'>
                             <Card.Img className='covidAppImg' variant="top" src={covidApp} />
                             <Card.Body>
                                 <Card.Title>Covid-19 Virtual Test</Card.Title>
@@ -84,7 +90,7 @@ function Home() {
                             <Button href='https://covidvirtualtest.herokuapp.com/' target='_blank' variant="dark">Visit the App</Button>
                         </Card>
 
-                        <Card className='card' style={{ width: '20rem' }}>
+                        <Card className='card'>
                             <Card.Img className='cinemafiImg' variant="top" src={cinemafi} />
                             <Card.Body>
                                 <Card.Title>Cinemafi</Card.Title>
@@ -97,7 +103,7 @@ function Home() {
                             </Card.Body>
                         </Card>
 
-                        <Card style={{ width: '20rem' }}>
+                        <Card>
                             <Card.Img className='pomodoroImg' variant="top" src={pomodoro} />
                             <Card.Body>
                                 <Card.Title>Pomodoro Clock</Card.Title>
@@ -114,10 +120,10 @@ function Home() {
             
 
             <Container fluid id='contact'>
-                <h3>Contact Me</h3>
+                <h3 className='head'>Contact Me</h3>
                 <p>I am currently looking for development opportunities! I can be reached by the following:</p>
                 <p>
-                <a className='navItem' onClick={openEmail}><img src={email} className='contactPic'></img></a> vfisch0430@gmail.com
+                <a className='clickable' onClick={openEmail}><img src={email} className='contactPic'></img></a> vfisch0430@gmail.com
                 <br></br>
                 <img src={phone} className='contactPic'></img> (917) 831-8913
                 <br></br>
@@ -130,7 +136,7 @@ function Home() {
         
 
             <Container fluid id='resume'>
-                <h3>My Resume</h3>
+                <h3 className='head'>My Resume</h3>
                 <Resume />
             </Container>
 
