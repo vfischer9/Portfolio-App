@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Container, Card, Button, Row, Col } from 'react-bootstrap';
 import letterV from '../images/letterV.png';
 import covidApp from '../images/covidApp.JPG';
-import cinemafi from '../images/cinemafi.png';
+import cinemafi from '../images/cinemafi.PNG';
 import pomodoro from '../images/pomodoro.JPG';
 import linkedin from '../images/linkedin.png';
 import github from '../images/github.png';
@@ -137,7 +137,7 @@ function Home() {
 
             <Container fluid id='resume'>
                 <h3 className='head'>My Resume</h3>
-                <Resume />
+                {/* <Resume /> */}
             </Container>
 
             <br></br><br></br><br></br><br></br><br></br>
