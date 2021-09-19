@@ -183,6 +183,11 @@
     margin-bottom: 15px;
   }
 
+  .vfischer{
+    height: 10rem;
+    margin-top: 20px;
+  }
+
   .navigate{
     height: 6rem;
     padding: 12px;
@@ -230,7 +235,20 @@
     margin-bottom: 400px;
   }
 
+  .footer{
+    font-size: 12px;
+    text-align: center;
+  }
  }
+
+ @media only screen and (max-width: 767px) {
+  #resumeComponent {
+      display: none;
+  }
+  #resume::after{
+    content: "Please view on a larger resolution.";
+  }
+}
 
  /* // Medium devices (tablets, 767px and up) */
 @media (min-width: 767px) { 
@@ -244,6 +262,16 @@
 
   .line{
     margin: 0;
+  }
+
+  .vfischer{
+    height: 35rem;
+    margin-top: 20px;
+  }
+
+  .footer{
+    font-size: 14px;
+    text-align: center;
   }
 
   .navigate{

@@ -5,7 +5,7 @@ function Resume() {
     console.log('resume loads');
 
     return (
-        <div className='bordered'>
+        <div className='bordered' id='resumeComponent'>
             {/* <embed className='resumeEmbed' src="https://onedrive.live.com/embed?resid=BE35587733C974EE%2145362&amp;authkey=%21AD0PrIMP1Jm23Bw&amp;em=2&amp;wdEmbedCode=0"></embed> */}
             <h3 className='resumeName'>VICTORIA FISCHER</h3>
             <p className='resumeContact'>(917) 831-8913 || fischer.victoria17@gmail.com || Staten Island, NY ||  <a target='_blank' href="https://github.com/vfischer9">https://github.com/vfischer9</a> || <a target='_blank' href="https://www.linkedin.com/in/vfischer9/">https://www.linkedin.com/in/vfischer9/</a></p>
