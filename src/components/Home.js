@@ -101,6 +101,7 @@ function Home() {
                                 to like, comment on, or favorite movies.
                                 </Card.Text>
                             </Card.Body>
+                            <Button href='https://www.youtube.com/watch?v=i6FNOEpRAWA' target='_blank' variant="dark">View the App</Button>
                         </Card>
 
                         <Card>

@@ -37,7 +37,6 @@
 }
 
 .covidAppImg{
-  opacity: 60%;
   height: 13rem;
   border: gray;
   border-style: solid;
@@ -45,7 +44,6 @@
 }
 
 .cinemafiImg{
-  opacity: 50%;
   height: 13rem;
   border: gray;
   border-style: solid;
@@ -53,7 +51,6 @@
 }
 
 .pomodoroImg{
-  opacity: 60%;
   height: 13rem;
   border: gray;
   border-style: solid;
