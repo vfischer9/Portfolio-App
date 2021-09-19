@@ -13,17 +13,23 @@
   opacity: 100%;
 }
 
+.vfischer{
+  height: 45rem;
+  margin-top: 20px;
+}
+
 .navigate{
   background-color: lightgray;
 }
 
 .about{
   margin-top: 400px;
+  margin-bottom: 1500px;
   text-align: center;
 }
 
 #projects{
-  margin-top: 1300px;
+  margin-top: 1500px;
   text-align: center;
 }
 
@@ -109,6 +115,63 @@
   top: 10px;
   z-index: 100;
 }
+
+.resumeName{
+  text-align: center;
+  letter-spacing: 30px;
+  margin-top: 40px;
+}
+
+.bordered{
+  border: black solid 2px;
+  width: 75%;
+  margin: auto;
+}
+
+.resumeContact{
+  font-size: 12px;
+}
+
+.resumeHead{
+  text-align: start;
+  margin-left: 6rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.resumeBullet{
+  text-align: start;
+  margin-left: 6rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.resumeDesc{
+  text-align: start;
+  margin-left: 6rem;
+  margin-right: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.left{
+  float: left;
+  margin-left: 6rem;
+}
+
+.right{
+  float: right;
+  margin-right: 6rem;
+}
+
+.clear{
+    clear:both;
+}
+
+.list{
+  margin-right: 6rem;
+}
+
 
 /* // Small devices (landscape phones, 320px and up) */
 @media (min-width: 319px) { 

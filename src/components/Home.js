@@ -9,6 +9,7 @@ import github from '../images/github.png';
 import email from '../images/email.png';
 import copyright from '../images/copyright.png';
 import phone from '../images/phone-call.png';
+import vfischer from '../images/vfischer.JPG';
 import Resume from './Resume';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -71,7 +72,9 @@ function Home() {
                     <br></br>
                     strategizing, and designing.
                 </p>
+                <img className='vfischer' src={vfischer}></img>
             </Container>
+
 
             <Container fluid id='projects'>
                 <h3 className='head'>Featured Work</h3>
@@ -137,8 +140,8 @@ function Home() {
         
 
             <Container fluid id='resume'>
-                <h3 className='head'>My Resume</h3>
-                {/* <Resume /> */}
+                <h3 className='head mb-4'>My Resume</h3>
+                <Resume />
             </Container>
 
             <br></br><br></br><br></br><br></br><br></br>
